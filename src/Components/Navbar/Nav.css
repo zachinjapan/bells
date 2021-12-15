@@ -1,0 +1,13 @@
+.Nav {
+  display: flex;
+  width: 50%;
+  height: fit-content;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  text-decoration: none;
+}
+
+.nav-link {
+  color: wheat;
+}
