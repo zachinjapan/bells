@@ -1,0 +1,11 @@
+.about-headshots {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.headshot {
+  height: 100px;
+  width: 100px;
+}
