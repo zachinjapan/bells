@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route, Link, Outlet } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "../Navbar/Nav.css";
 
 const Nav = () => {
