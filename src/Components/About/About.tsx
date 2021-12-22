@@ -1,4 +1,5 @@
 import "./About.css";
+import headshot from "../../images/headshot.png";
 
 const About = () => {
   return (
@@ -10,30 +11,8 @@ const About = () => {
       <div className="about-headshots">
         <div>
           <h1>Joey</h1>
-          <img
-            src="../../images/headshot.png"
-            alt="headshot1"
-            className="headshot"
-          />
-          <p> this will be clickable modal. maybe</p>
-        </div>
-        <div>
-          <h1>Joey</h1>
-          <img
-            src="../../images/headshot.png"
-            alt="headshot2"
-            className="headshot"
-          />
-          <p> this will be clickable modal. maybe</p>
-        </div>
-        <div>
-          <h1>Joey</h1>
-          <img
-            src="../../images/headshot.png"
-            alt="headshot3"
-            className="headshot"
-          />
-          <p> this will be clickable modal. maybe</p>
+          <img src={headshot} alt="headshot1" className="headshot" />
+          <p> My name is Joey I love potatoes.</p>
         </div>
       </div>
     </div>

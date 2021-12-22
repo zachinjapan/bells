@@ -1,10 +1,24 @@
-const About = () => {
+import "./Media.css";
+
+const Media = () => {
   return (
     <div className="scroll-div">
-      <h1>Media</h1>
-      <p>This is the TodoList app v1.0.0. It is part of a React crash course</p>
+      <h1
+        style={{
+          marginTop: "50px",
+        }}
+      >
+        Media
+      </h1>
+      <div className="media-container">
+        <iframe
+          title="youtube"
+          className="media-item"
+          src="https://www.youtube.com/embed/TV6Maj-SLkI"
+        />
+      </div>
     </div>
   );
 };
 
-export default About;
+export default Media;

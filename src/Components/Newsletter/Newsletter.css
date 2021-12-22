@@ -1,0 +1,24 @@
+.newsletter-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.newsletter-title {
+  width: 100%;
+}
+
+.newsletter-input {
+  width: 100%;
+  margin-top: 1rem;
+  color: red;
+  background-color: beige;
+}
+
+.newsletter-button:hover {
+  /* grow bigger on hover */
+  transform: scale(1.1);
+  opacity: 0.8;
+}

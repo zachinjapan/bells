@@ -6,8 +6,17 @@
   justify-content: space-around;
   align-items: center;
   text-decoration: none;
+  text-decoration-line: none;
 }
 
 .nav-link {
   color: wheat;
+  text-decoration: none;
+  text-decoration-line: none;
+}
+
+@media screen and (max-width: 768px) {
+  .Nav {
+    width: 100%;
+  }
 }

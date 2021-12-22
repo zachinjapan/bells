@@ -1,0 +1,15 @@
+.media-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 90vh;
+  flex-wrap: wrap;
+}
+
+.media-item {
+  width: 75%;
+  height: 75%;
+  border: groove 10px wheat;
+}

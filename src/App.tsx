@@ -1,5 +1,5 @@
 // This is a React Router v6 app
-import { BrowserRouter, Routes, Route, Link, Outlet } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Nav from "./Components/Navbar/Nav";
 import Landing from "./Components/Landing/Landing";
 import About from "./Components/About/About";
