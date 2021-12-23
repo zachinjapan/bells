@@ -9,3 +9,10 @@
   height: 100px;
   width: 100px;
 }
+
+.person-div {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+}
