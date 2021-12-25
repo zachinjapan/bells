@@ -6,7 +6,7 @@ const PersonCard = (props) => {
       <div className="person-card-image">
         <img src={props.image} alt="" />
       </div>
-      <div className="person-card-nfo">
+      <div className="person-card-info">
         <div className="person-card-name">{props.name}</div>
         <div className="person-card-position">{props.position}</div>
         <div className="person-card-description">{props.description}</div>

@@ -3,11 +3,11 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 500px;
-  height: 500px;
+  max-width: 400px;
+  max-height: 400px;
 }
 
 .person-card img {
-  width: 50%;
+  width: 100px;
   height: auto;
 }
