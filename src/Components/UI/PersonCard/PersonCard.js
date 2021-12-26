@@ -10,6 +10,13 @@ const PersonCard = (props) => {
         <div className="person-card-name">{props.name}</div>
         <div className="person-card-position">{props.position}</div>
         <div className="person-card-description">{props.description}</div>
+        <div className="person-card-social">
+          {props.href ? (
+            <a href={props.href} target={"_blank"} rel="noreferrer noopener">
+              Social Links
+            </a>
+          ) : null}
+        </div>
       </div>
     </div>
   );

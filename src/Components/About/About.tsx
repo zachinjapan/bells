@@ -21,7 +21,8 @@ const About = () => {
           name="Zach"
           image={zach}
           position="Web Developer"
-          description="I love cupcakes"
+          description={`Front End Web developer using the React Framework.`}
+          href="https://linktr.ee/zachinjapan"
         />
       </div>
     </div>
