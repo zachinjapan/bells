@@ -1,7 +1,7 @@
 body {
 	margin: 0;
 	padding: 0;
-	cursor: url('./images/sword.cur'), auto;
+	cursor: url('./images/sword1.cur'), auto;
 	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
 		"Droid Sans", "Helvetica Neue", sans-serif;
 	-webkit-font-smoothing: antialiased;
@@ -10,4 +10,8 @@ body {
 
 code {
 	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+a {
+	cursor: url('./images/sword.cur'), auto;
 }
