@@ -2,6 +2,8 @@ import "./About.css";
 
 import PersonCard from "../UI/PersonCard/PersonCard";
 import zach from "../../images/zach.jpeg";
+import cliff from "../../images/cliff.jpeg";
+import joey from "../../images/joey.jpeg";
 
 const About = () => {
   return (
@@ -13,7 +15,7 @@ const About = () => {
       <div className="person-div">
         <PersonCard
           name="Joey"
-          image={zach}
+          image={joey}
           position="Game Designer"
           description="I love potatoes"
         />
@@ -21,8 +23,15 @@ const About = () => {
           name="Zach"
           image={zach}
           position="Web Developer"
-          description={`Front End Web developer using the React Framework.`}
+          description={`I love potatoes`}
           href="https://linktr.ee/zachinjapan"
+        />
+        <PersonCard
+          name="Cliff"
+          image={cliff}
+          position="Web Developer"
+          description="I love potatoes"
+          href="https://google.com"
         />
       </div>
     </div>
