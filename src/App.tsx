@@ -5,6 +5,7 @@ import Landing from './Components/Landing/Landing';
 import About from './Components/About/About';
 import Newsletter from './Components/Newsletter/Newsletter';
 import Media from './Components/Media/Media';
+import Reviews from './Components/Reviews/Reviews';
 import './App.css';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
 					<Route path="about" element={<About />} />
 					<Route path="newsletter" element={<Newsletter />} />
 					<Route path="media" element={<Media />} />
+					<Route path="reviews" element={<Reviews />} />
 				</Routes>
 				<Nav />
 				<div className="mouse" />
