@@ -1,0 +1,34 @@
+.reviews {
+  min-height: 90%;
+  width: 100%;
+}
+
+.review-panel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.review-item {
+  margin-bottom: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+  background-image: url("../../images/scroll.png");
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+  height: max-content;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.review-text {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 20px;
+}
