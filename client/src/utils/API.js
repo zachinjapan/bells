@@ -1,9 +1,6 @@
 import axios from 'axios';
 
-axios.get('/api/reviews').then((response) => {
-	console.log(response.data);
-	console.log(response.status);
-	console.log(response.statusText);
-	console.log(response.headers);
-	console.log(response.config);
-});
+const url = 'http://localhost:3001/api/reviews'
+
+export const fetchPosts = () => axios.get(url);
+
